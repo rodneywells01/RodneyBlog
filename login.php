@@ -17,16 +17,12 @@ echo "<br/>";
 ?>
 
 <?php 
-// echo "in here";
 //   if (isset($_POST['submit'])) {
-//   	echo "Submit";
 //     // User has submitted a form. 
 //     $admins = find_all_admins();
 //     $required_fields = array("username", "password");
 //     validate_presences($required_fields);
-//     echo "CHECKING ERRORS";
 //     if (empty($errors)) {
-//     	echo "no ERRORS";
 //       $username = mysql_prep($_POST["username"]);
 //       $hashed_password = password_encrypt($_POST["password"]);
 
@@ -36,9 +32,7 @@ echo "<br/>";
 //       $query .= " '{$username}', '{$hashed_password}'";
 //       $query .= ")";
 
-// 		echo "LET'S INSERT";
 //       $result = mysqli_query($connection, $query);
-// echo "Post INSERT";
 //       if ($result) {
 //         // Success
 //         echo "Admin created. <br/>";
@@ -51,9 +45,7 @@ echo "<br/>";
 //       echo "ERRORS <br/>";
 //     }
     
-//   } else {
-//   	echo "NOT SUBMIT";
-//   }
+//   } 
 ?>
 
 <?php 
