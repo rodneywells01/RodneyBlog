@@ -1,0 +1,41 @@
+.blogpost {
+	min-width: 400px;
+	max-width:  700px;
+	width: 60%;
+	border: 1px solid black;
+	margin:  0 auto;
+	text-align: left;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+.blogtitle {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.deletebox {
+	border: 1px solid black;
+	/*display: table-cell;*/
+	position: relative;
+	vertical-align: middle;
+	width: auto;
+	height: 50px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.deletelinkwrap {
+	width: auto;
+	margin: 0 auto;
+}
+
+.deletewrap {
+	margin-top: 40px;
+	width: auto;
+	text-align: center;
+	/*padding-left: 40%;*/
+	margin:0 auto;
+	display: inline-block;
+}
