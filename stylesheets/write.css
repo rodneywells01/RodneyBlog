@@ -1,0 +1,13 @@
+#writetitle {
+	text-align: center; 
+	font-size: 2.5em;
+	margin-bottom: 40px;
+}
+
+.inputcontent {
+	margin-bottom: 30px;
+}
+.descriptor {
+	text-align: left;
+	display: inline-block;
+}
