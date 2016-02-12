@@ -1,0 +1,11 @@
+#loginbox {
+	border: 1px solid black; 
+	margin-top: 50px;
+	width: 50%;
+}
+
+.loginrow {
+	display: block;
+	text-align: center;
+	margin: 30px auto 30px auto;
+}

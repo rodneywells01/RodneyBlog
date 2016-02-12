@@ -20,8 +20,8 @@ if(isset($_POST["submit"])) {
 
     if(empty($errors)) {
     	// Post blog to DB 
-    	$title = $_POST["title"];
-    	$body = $_POST["body"];    	
+    	$title = mysql_prep($_POST["title"]);
+    	$body = mysql_prep($_POST["body"]);    	
 		date_default_timezone_set('America/New_York');
 		$timestamp = date('m/d/Y h:i:s a', time());
 
