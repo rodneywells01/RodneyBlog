@@ -9,11 +9,7 @@
 
 <?php if ($admin) {
 	redirect_to("index.php");
-} else {
-	echo "not logged in yet";
-}
-print_r($_POST);
-echo "<br/>";
+} 
 ?>
 
 <?php 
@@ -84,7 +80,16 @@ echo "<br/>";
 ?>
 
 <form action="login.php" method="post">
-	Username: <input type="text" name="username">
-	Password: <input type="password" name="password">
-	<input type="submit" name="submit" value="Login">
+	<div id="loginbox" class="horizontallycenter">
+		<div class="loginrow">
+			Username: <input type="text" name="username">	
+		</div>
+		<div class="loginrow">
+			Password: <input type="password" name="password">
+		</div>
+		<div class="loginrow">
+			<input type="submit" name="submit" value="Login">
+		</div>				
+	</div>
+	
 </form>

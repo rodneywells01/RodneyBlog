@@ -61,6 +61,10 @@ body {
 	padding: 0;
 }
 
+.horizontallycenter {
+	margin: 0 auto;
+}
+
 .linkwrapper {
 	display: inline-block;
 	position: relative;
